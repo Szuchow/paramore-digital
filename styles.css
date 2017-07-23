@@ -10,7 +10,7 @@ html, body {
 }
 
 section, footer, div {
-    border: 1px solid black; */
+   /* border: 1px solid black; */
 
 }
 a {
@@ -188,7 +188,8 @@ a {
   flex-direction: column;
 }
 .capabilities__right-logo { /* wartości margin rozsuwaja zawartosc diva */
-  margin-left: 670px;
+  padding-left: 670px;
+  padding-bottom: 80px;
   font-size: 20px;
   color: #A7A7A7;
 }
@@ -227,6 +228,9 @@ a {
   flex-direction: column;
 }
 .capabilities__right-lower-right-logo {
+  padding-left: 300px;
+  font-size: 20px;
+   padding-bottom: 40px;
 
 }
 
@@ -319,7 +323,7 @@ a {
 .footer__right-info2 {
   font-size: 15px;
   color: #7a7a7a;
-  margin-top: 15px;
+  margin-top: 10px;
   padding-left: 33px; 
 
 }
