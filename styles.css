@@ -1,0 +1,332 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section, footer, div {
+    border: 1px solid black; */
+
+}
+a {
+    color: #ADACAC;
+}
+
+/* ################################### */
+
+.home {
+  height: 100vh;
+  background: url('./assets/lauren-home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo-paramore {
+  padding-top: 35px;
+  padding-left: 75px;
+}
+.home__company-name {
+  color: white;
+  font-size: 160px;
+  font-weight: bold;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+  max-width: 550px;
+
+  line-height: .8;
+    margin-left: 20px;
+    position: relative;
+
+}
+
+.home__company-name-para {
+  margin-bottom: -80px;
+ }
+
+.home__company-name-more{
+  margin-bottom: -40px;
+}
+.home__company-reserved {
+  font-size: 10px;
+}
+
+/* ################################### */
+
+.latest-news {
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest-news__latest {
+  font-size: 28px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.latest-news__description {
+  font-size: 20px;
+  padding: 0 5px;
+  color: #ADACAF;
+}
+
+.latest-news__read-more {
+  padding-left: 10px;
+  font-size: 20px;
+  color: #f67633;
+}
+
+/* ################################### */
+.latest-work {
+  height: 80vh;
+  display: flex;
+}
+
+.latest-work div {
+  
+}
+
+.latest-work__left {
+  flex: 1;
+
+  background: url('./assets/ALS-hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.latest-work__right {
+  flex: 1;
+  background-color: #1A1A1A;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.latest-work__right div {
+  padding-left: 60px;
+}
+
+.latest-work__title-link {
+  text-transform: uppercase;
+  color: #f67633;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.latest-work__title {
+  font-size: 52px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.latest-work__descritpion {
+  padding-top: 10px;
+  width: 60%;
+  font-size: 24px;
+  color: grey;
+}
+.latest-work__read-more {
+  display: flex;
+  font-size: 24px;
+  color: #f67633;
+  cursor: pointer
+}
+
+/* ################################### */
+.capabilities {
+  display: flex;
+  height: 80vh;
+}
+
+.capabilities__left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.capabilities__left > div {
+  padding-left: 140px;
+}
+
+.capabilities__right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.capabilities__list-title {
+  text-transform: uppercase;
+  color: gray;
+  margin: 15px 0;
+  font-size: 22px;
+}
+
+.capabilities__list div {
+  font-size: 44px;
+  font-weight: bold;
+  color: #2F2F2F;
+}
+
+
+.capabilities__right-upper {
+  flex: 1;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.capabilities__right-logo { /* wartości margin rozsuwaja zawartosc diva */
+  margin-left: 670px;
+  font-size: 20px;
+  color: #A7A7A7;
+}
+.capabilities__right-hiring { 
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 45px;
+  color: #2F2F2F; 
+  max-width: 560px;
+}
+.capabilities__right-link {
+  padding-top: 30px;
+  padding-left: 45px;
+  color: #f67633;
+  cursor: pointer
+}
+
+
+.capabilities__right-lower {
+  flex: 1;
+  display: flex;
+}
+
+.capabilities__right-lower-left {
+  flex: 1;
+  background: url('./assets/hiring.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.capabilities__right-lower-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.capabilities__right-lower-right-logo {
+
+}
+
+.capabilities__right-lower-right-hiring {
+  min-height: 200px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 75%;
+  color: #2F2F2F;
+
+}
+
+/* ################################### */
+.footer {
+  background-color: #1A1A1A;
+  color: white;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer__left {
+  color: #ADACAF;
+  flex: 1;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-right: 70px;
+  max-width: 190px;
+
+}
+.footer__left-name {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+.footer__left-adress1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer__left-adress2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer__left-cellphone {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer__left-mail {
+  margin-top: 10px;
+}
+.footer__middle {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-around;
+  color: #ADACAF;
+  margin-left: 100px;
+  max-width: 350px;
+}
+.footer__middle-contact {
+   flex: 1;
+   font-size: 14px;
+}
+.footer__middle-careers {
+   flex: 1;
+   font-size: 14px;
+}
+.footer__middle-partners {
+  flex: 1;
+  font-size: 14px;
+}
+.footer__right {
+  flex: 1;
+  margin-left: 200px;
+  margin-right: 100px;
+  max-width: 160px;
+}
+.footer__right-icons {
+  color: #A7A7A7;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.footer__right-info1 {
+  font-size: 14px;
+  color: #A7A7A7;
+}
+.footer__right-info2 {
+  font-size: 15px;
+  color: #7a7a7a;
+  margin-top: 15px;
+  padding-left: 33px; 
+
+}
+
+
+
+
+
+
+
