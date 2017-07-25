@@ -19,7 +19,7 @@ a {
 
 /* ################################### */
 .responsive-menu {
- position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -29,32 +29,36 @@ a {
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  background: rgba(73,186,228,.98);
+  background: #1A1A1A;
   color: white;
   z-index: 1;
-  opacity: 1;
+  opacity: 0.9;
   transition: opacity 0.5s;
+  
 }
 
 .responsive-menu div {
   transition: color 1s;
+  padding: 20px;
 }
 
 .responsive-menu div:hover {
-  color: red;
+  color: #569e94;
 }
 
 .disabled {
-  opacity: 0;
+  display: none;
 }
 
 .button {
   position: fixed;
-  top: 30px;
+  top: 45px;
   right: 100px;
   z-index: 2;
   border: 1px solid black;
   cursor: pointer;
+  font-size: 25px;
+
 }
 
 .home {
