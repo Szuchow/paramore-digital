@@ -28,26 +28,35 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
-  background: #1A1A1A;
+  font-size: 65px;
+  font-weight: bold;
+  background: #4CBBE4;
   color: white;
   z-index: 1;
-  opacity: 0.9;
+  opacity: 0.95;
   transition: opacity 0.5s;
-  
+  transition: width 2s, height 4s
+}
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
 }
 
 .responsive-menu div {
-  transition: color 1s;
-  padding: 20px;
+  transition: color 0.5s;
+  padding: 15px;
 }
 
 .responsive-menu div:hover {
-  color: #569e94;
+  color: #3890af;
 }
 
 .disabled {
   display: none;
+
 }
 
 .button {
@@ -55,10 +64,9 @@ a {
   top: 45px;
   right: 100px;
   z-index: 2;
-  border: 1px solid black;
   cursor: pointer;
-  font-size: 25px;
-
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .home {
@@ -67,26 +75,50 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .logo-paramore {
   padding-top: 35px;
   padding-left: 75px;
 }
-.home__company-name {
+
+.home__personal {
+  margin-top: 80px;
+  margin-left: 1110px;
+  color: white;
+}
+
+.home__personal-name {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 10px;
+    padding: 5px;
+  max-width: 215px;
+  background-color: #1A1A1A;
+}
+
+.home__personal-position {
+  font-size: 14px;
+  margin-left: 35px;
+  max-width: 180px;
+  background-color: #1A1A1A;
+  padding: 5px;
+
+}
+
+.home__company-name { /*Nazwa paramore zostala zepchnieta do lewej storny*/
   color: white;
   font-size: 160px;
   font-weight: bold;
-
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 100px;
+  margin-left: 130px;
+  margin-top: 100px;
   max-width: 550px;
-
   line-height: .8;
-    margin-left: 20px;
-    position: relative;
-
+  margin-left: 20px;
+  position: relative;
 }
 
 .home__company-name-para {
@@ -96,6 +128,7 @@ a {
 .home__company-name-more{
   margin-bottom: -40px;
 }
+
 .home__company-reserved {
   font-size: 10px;
 }
@@ -221,7 +254,6 @@ a {
   color: #2F2F2F;
 }
 
-
 .capabilities__right-upper {
   flex: 1;
   background: lightgray;
@@ -230,12 +262,14 @@ a {
   align-items: flex-start;
   flex-direction: column;
 }
+
 .capabilities__right-logo { /* wartości margin rozsuwaja zawartosc diva */
   padding-left: 670px;
   padding-bottom: 80px;
   font-size: 20px;
   color: #A7A7A7;
 }
+
 .capabilities__right-hiring { 
   font-size: 24px;
   font-weight: bold;
@@ -243,13 +277,13 @@ a {
   color: #2F2F2F; 
   max-width: 560px;
 }
+
 .capabilities__right-link {
   padding-top: 30px;
   padding-left: 45px;
   color: #f67633;
   cursor: pointer
 }
-
 
 .capabilities__right-lower {
   flex: 1;
@@ -270,6 +304,7 @@ a {
   justify-content: center;
   flex-direction: column;
 }
+
 .capabilities__right-lower-right-logo {
   padding-left: 300px;
   font-size: 20px;
@@ -295,6 +330,7 @@ a {
   align-items: center;
   justify-content: space-around;
 }
+
 .footer__left {
   color: #ADACAF;
   flex: 1;
@@ -302,29 +338,34 @@ a {
   margin-left: 100px;
   margin-right: 70px;
   max-width: 190px;
-
 }
+
 .footer__left-name {
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 16px;
   color: white;
 }
+
 .footer__left-address1 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 .footer__left-address2 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 .footer__left-cellphone {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 .footer__left-mail {
   margin-top: 10px;
 }
+
 .footer__middle {
   display: flex;
   flex-direction: row;
@@ -334,24 +375,29 @@ a {
   margin-left: 100px;
   max-width: 350px;
 }
+
 .footer__middle-contact {
    flex: 1;
    font-size: 14px;
 }
+
 .footer__middle-careers {
    flex: 1;
    font-size: 14px;
 }
+
 .footer__middle-partners {
   flex: 1;
   font-size: 14px;
 }
+
 .footer__right {
   flex: 1;
   margin-left: 200px;
   margin-right: 100px;
   max-width: 160px;
 }
+
 .footer__right-icons {
   color: #A7A7A7;
   display: flex;
@@ -359,16 +405,17 @@ a {
   margin-bottom: 30px;
   font-size: 20px;
 }
+
 .footer__right-info1 {
   font-size: 14px;
   color: #A7A7A7;
 }
+
 .footer__right-info2 {
   font-size: 15px;
   color: #7a7a7a;
   margin-top: 10px;
   padding-left: 33px; 
-
 }
 
 

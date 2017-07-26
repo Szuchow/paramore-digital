@@ -8,6 +8,7 @@ window.addEventListener('DOMContentLoaded', function () {
 		menu.classList.toggle('disabled');
 		hide.classList.toggle('disabled');
 		show.classList.toggle('disabled');
+		button.classList.toggle('')
 	});
 
 });
