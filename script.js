@@ -7,13 +7,9 @@ window.addEventListener('DOMContentLoaded', function () {
 	var menu = document.getElementById('responsive-menu');
 
 	btn.addEventListener('click', function () {
-		menu.classList.toggle('disabled');
 		hide.classList.toggle('disabled');
 		show.classList.toggle('disabled');
 		button.classList.toggle('open')
 	});
 
 });
-	$("button").on("click", function() {
-  $(".responsive-menu").addClass("open");
-})

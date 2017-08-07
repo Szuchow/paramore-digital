@@ -28,7 +28,7 @@ a {
   width: 100vw;
   height: 100vh;
 }
-.responsive-menu.open {
+.open {
   opacity: 1;
 }
 .black {
