@@ -9,7 +9,6 @@ window.addEventListener('DOMContentLoaded', function () {
 	btn.addEventListener('click', function () {
 		hide.classList.toggle('disabled');
 		show.classList.toggle('disabled');
-		button.classList.toggle('open')
+		menu.classList.toggle('open');
 	});
-
 });
